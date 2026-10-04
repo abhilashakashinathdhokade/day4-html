@@ -1,0 +1,99 @@
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        font-family: Arial;
+    }
+
+    .card {
+        width: 200px;
+        padding: 8px;
+        border: 1px solid lightgray;
+        box-shadow: 0 0 5px lightgray;
+    }
+
+    .image {
+        width: 200px;
+        height: 190px;
+        object-fit: cover;
+    }
+
+    h3 {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    p {
+        margin: 5px 0;
+        color: gray;
+        font-size: 13px;
+    }
+
+    button {
+        margin-top: 10px;
+        background-color: #3478e5;
+        color: white;
+        border: none;
+        padding: 7px 12px;
+        border-radius: 3px;
+    }
+
+    .pfp {
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+    }
+
+    .my-pfp {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+</style>
+
+
+<div class="container">
+
+    <div class="card">
+        <img class="image" src="\lesson_9\pfp.jpg">
+
+        <h3>Shinchan</h3>
+
+        <div class="my-pfp">
+            <img class="pfp" src="\lesson_10\pfp1.jpg">
+            <p>2 mutual friends</p>
+        </div>
+
+        <button>Add Friend</button>
+    </div>
+
+
+    <div class="card">
+        <img class="image" src="\lesson_9\char.jpg">
+
+        <h3>Charizard</h3>
+
+        <div class="my-pfp">
+            <img class="pfp" src="\lesson_10\pfp1.jpg">
+            <p>3 mutual friends</p>
+        </div>
+
+        <button>Add Friend</button>
+    </div>
+
+
+    <div class="card">
+        <img class="image" src="\lesson_9\spidey.jpg">
+
+        <h3>Spider-man</h3>
+
+        <div class="my-pfp">
+            <img class="pfp" src="\lesson_10\pfp1.jpg">
+            <p>4 mutual friends</p>
+        </div>
+
+        <button>Add Friend</button>
+    </div>
+
+</div>
